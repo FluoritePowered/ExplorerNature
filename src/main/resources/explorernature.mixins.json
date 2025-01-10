@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "moe.kotori.explorernature.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "explorernature.refmap.json",
+  "mixins": [
+    "MixinEnderLeadItem"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
